@@ -8,10 +8,8 @@ import java.util.Map;
 public class Test {
 
     public static void main(String[] args) {
-//        int[] arr = {1,1,23,1,1,2,2,2,2,1};
-//        System.out.println(MoreThanHalfNum_Solution(arr));
-        System.out.println(Long.valueOf("101010101010"));
-
+        int[] arr = {1,1,23,1,1,2,2,2,2,1};
+        System.out.println(MoreThanHalfNum_Solution(arr));
     }
 
 
