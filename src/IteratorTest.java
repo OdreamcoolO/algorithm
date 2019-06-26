@@ -11,7 +11,7 @@ public class IteratorTest {
     }
 
     public static void itTest(){
-        Map<Integer ,String> map = new HashMap<>();
+        Map<Integer ,String> map = new HashMap<>(10);
         /**
          * 添加数据
          */
