@@ -17,6 +17,7 @@ public class IteratorTest {
          */
         for (int i = 0; i < 10; i++) {
             map.put(i, ""+i+i);
+
         }
         System.out.println(map);
         /**
