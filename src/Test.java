@@ -9,7 +9,7 @@ public class Test {
     public static void main(String[] args) {
 //        int[] arr = {1,1,23,1,1,2,2,2,2,1};
 //        System.out.println(MoreThanHalfNum_Solution(arr));(2,3),(2,4),(2,5),(3,4),(3,5),(4,5),(5,3)
-        test6();
+        test14();
     }
 
 
@@ -98,9 +98,98 @@ public class Test {
 //        String str = "454+153+455+4545+54";
         String[] strs = str.split("\\+|\\-|\\*|\\/|\\(|\\)");
         System.out.println(strs.length);
+    }
+
+    public static void test7(){
+        System.out.println((double)1/3);
+    }
+
+    public static void test8(){
+//        int[] a = {1,2,3};
+//        int[] b = {1,2,3};
+//        System.out.println(a == b);
+//        System.out.println(a.hashCode());
+//        System.out.println(b.hashCode());
+//        System.out.println(a);
+//        System.out.println(b);
+//        Integer i1 = new Integer(1000);
+//        System.out.println(i1.hashCode());
+//        Integer i2 = new Integer(1000);
+//        System.out.println(i2.hashCode());
+//        Integer i3 = new Integer(1000);
+//        System.out.println(i3.hashCode());
+//        System.out.println(i2== i1);
+//        System.out.println(i2== i3);
+//        System.out.println(i3== i1);
+//        StringBuilder sb = new StringBuilder("123456");
+//        String s = "123456";
+//        System.out.println(sb.toString() == "1234567");
+        String a=new String("haha");
+        String b =new String("haha");
+        char c [ ] ={'h','a','a','a'};
+        System.out.println(b.equals(c));
+    }
+
+    public static void test9(){
+        String String = "111";
+        int num = 50;
+        num = num++*2;
+        System.out.println(num);
+
+        int x =  2 ;
+         x += 2L;
+        long n = 100 + x;
 
     }
 
+    public static void test10(){
+        String[] strings = {"1","123","12","13","111"};
+        Arrays.sort(strings);
+        System.out.println(Arrays.toString(strings));
+    }
+
+    public static int test11(){
+        int a = 1;
+        a++;
+        return a;
+    }
+
+    public static void test12(){
+        String str = "123";
+        System.out.println(str.charAt(0));
+        System.out.println(str.charAt(1));
+        System.out.println(str.charAt(2));
+        System.out.println(str.charAt(3));
+        System.out.println(str.charAt(4));
+    }
 
 
+    public static void test13(){
+        A obj = new D();
+
+        System.out.println(obj instanceof B);
+
+        System.out.println(obj instanceof C);
+
+        System.out.println(obj instanceof D);
+
+        System.out.println(obj instanceof A);
+    }
+
+    public static void test14(){
+        String str = "123456789";
+        String[] s = str.split("");
+        System.out.println(s.length);
+    }
 }
+
+class A{}
+
+class B extends A{}
+
+class C extends A{}
+
+class D extends B{}
+
+
+

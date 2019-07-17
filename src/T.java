@@ -1,4 +1,5 @@
 
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -7,6 +8,11 @@ import java.util.Scanner;
  */
 public class T {
     public static void main(String[] args){
+        test2();
+    }
+
+
+    public static void test1(){
         Scanner sc = new Scanner(System.in);
         int n , t, a;
         n = sc.nextInt();
@@ -18,4 +24,11 @@ public class T {
             System.out.println(a + (n - t));
         }
     }
+
+    public static void test2(){
+        BigInteger number = new BigInteger("12345");
+        BigInteger three = new BigInteger("3");
+        System.out.println( number.mod(three));
+    }
+
 }

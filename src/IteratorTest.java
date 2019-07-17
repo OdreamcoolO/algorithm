@@ -39,6 +39,7 @@ public class IteratorTest {
          * map使用迭代器时需要通过entrySet获取
          * 所以迭代器类型也要为Entry
          */
+
         Iterator<Map.Entry<Integer, String>> it = map.entrySet().iterator();
         while (it.hasNext()){
             System.out.print(it.next().getValue()+"\t");
